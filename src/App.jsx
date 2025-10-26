@@ -4,8 +4,8 @@ import Landing from './pages/Landing'
 import AuthSelection from './pages/AuthSelection'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
-import FarmerDashboard from './pages/farmer/FarmerDashboard'
-import BuyerDashboard from './pages/buyer/BuyerDashboard'
+import FarmerDashboard from './pages/farmer/farmerDashboard.jsx'
+import BuyerDashboard from './pages/buyer/BuyerDashboard.jsx'
 import { AuthProvider, useAuth } from './state/auth'
 
 export default function App(){
